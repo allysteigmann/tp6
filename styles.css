@@ -86,17 +86,7 @@ div#titleBanner {
 #recipeColumns div#equipment { flex-basis: 50%; }
 #recipeColumns div#directions { flex-basis: 50%; }
 
-
-
-@media screen and (orientation: portrait) {
-
- 
-  #recipeColumns {
-    padding: 1vh 2vh 2vh 2vh;
-    display: block;
-  }
-  
-/*columns disappear*/  
+*columns disappear*/  
   #recipeColumns #ingredients,
   #recipeColumns #directions ol, 
   #recipeColumns #equipment ul 
@@ -110,6 +100,16 @@ div#titleBanner {
   {
     display: block;
   }
+
+
+@media screen and (orientation: portrait) {
+
+ 
+  #recipeColumns {
+    padding: 1vh 2vh 2vh 2vh;
+    display: block;
+  }
+  
 
 @media screen and (orientation: portrait) and (max-width: 575px) {
   
